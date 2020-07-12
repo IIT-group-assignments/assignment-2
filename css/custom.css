@@ -1,0 +1,14 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NAVBAR
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  margin: 12px 0 0 0;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+}
