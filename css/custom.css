@@ -49,3 +49,13 @@ h1 .navbar-brand {
     padding-bottom: 0;
   }
 }
+
+@media (min-width: 992px) {
+  h1.navbar__logo {
+    font-size: 36px;
+  }
+
+  .nav li {
+    font-size: 16px;
+  }
+}
