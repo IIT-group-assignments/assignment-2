@@ -1,14 +1,51 @@
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 NAVBAR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.navbar-brand {
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 !important;
+}
+
+h1 .navbar-brand {
   display: flex;
   align-items: center;
+  margin: 0 !important;
+  font-size: 34px;
 }
 
 .navbar__logo {
-  margin: 12px 0 0 0;
+  margin: 10px 0 0 0;
   color: #fff;
   font-family: 'Pacifico', cursive;
   font-weight: 100;
+}
+
+.navbar-toggle {
+  order: 2;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .navbar .container {
+    width: 100%;
+    padding: 8px 15px;
+  }
+
+  .navbar__logo {
+    margin-top: 0;
+  }
+
+  ul.nav {
+    margin-top: 0;
+  }
+
+  .nav li {
+    padding-bottom: 0;
+  }
 }
