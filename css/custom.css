@@ -97,11 +97,16 @@ FOOTER
   font-size: 30px;
 }
 
+.midnight-blue {
+  text-align: center;
+}
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-FOOTER
+ABOUT
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.midnight-blue {
-  text-align: center;
+.about-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
