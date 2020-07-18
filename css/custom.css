@@ -128,9 +128,19 @@ ABOUT PAGE
 }
 
 .feature__title {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin: 0 20px !important;
+}
+
+.feature__heading {
   font-size: 32px;
+  margin: 0 0 6px 0 !important;
+}
+
+.feature__id {
+  font-size: 14px;
+  margin: 0 !important;
 }
 
 .feature__paragraph {
