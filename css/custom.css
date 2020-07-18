@@ -95,12 +95,8 @@ HOME PAGE - FEATURES SECTION
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 HOME PAGE - TECHNOLOGIES SECTION
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.technologies {
-  background-color: #fff !important;
-}
-
-.technologies .nav-stacked .active {
-  background: #ec5538;
+.technologies__back-end {
+  text-align: left;
 }
 
 
@@ -145,7 +141,7 @@ IT WORK PAGE
 IT TECHNOLOGIES PAGE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .it-technologies-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/technologies.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/technologies.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
