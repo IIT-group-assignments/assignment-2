@@ -99,6 +99,14 @@ HOME PAGE - TECHNOLOGIES SECTION
   text-align: left;
 }
 
+#content p span {
+  font-style: italic;
+}
+
+#content img {
+  margin-bottom: 20px;
+}
+
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
