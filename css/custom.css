@@ -71,24 +71,6 @@ ul .dropdown-menu {
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-FEATURES SECTION
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.features {
-  background-color: #fafafa !important;
-}
-
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-TECHNOLOGIES SECTION
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.technologies {
-  background-color: #fff !important;
-}
-
-.technologies .nav-stacked .active {
-  background: #ec5538;
-}
-
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 FOOTER
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .bottom__logo {
@@ -102,11 +84,81 @@ FOOTER
 }
 
 
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ABOUT
+HOME PAGE - FEATURES SECTION
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.features {
+  background-color: #fafafa !important;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+HOME PAGE - TECHNOLOGIES SECTION
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.technologies {
+  background-color: #fff !important;
+}
+
+.technologies .nav-stacked .active {
+  background: #ec5538;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ABOUT PAGE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .about-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INDUSTRY DATA PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.industry-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/data.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IT WORK PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.it-work-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/it-work.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IT TECHNOLOGIES PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.it-technologies-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/technologies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+TOOLS PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.tools-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/tools.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
