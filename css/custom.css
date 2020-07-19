@@ -201,6 +201,16 @@ INDUSTRY DATA PAGE
   background-position: center;
 }
 
+.industry__heading {
+  font-size: 24px;
+  color: #787878;
+}
+
+.industry__subheading {
+  font-size: 18px;
+  color: #787878;
+}
+
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
