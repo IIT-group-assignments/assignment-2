@@ -123,6 +123,10 @@ ABOUT PAGE
   text-align: left;
 }
 
+.feature__tile {
+  margin-bottom: 40px;
+}
+
 .feature__header {
   display: flex;
   align-items: center;
@@ -154,6 +158,26 @@ ABOUT PAGE
 .feature__paragraph {
   font-size: 14px !important;
   margin-bottom: 10px !important;
+}
+
+.feature__button:link,
+.feature__button:visited {
+  display: block;
+  width: 70%;
+  margin-top: 20px;
+  border: transparent solid 1px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: #ec5538;
+  color: #fff;
+  text-align: center;
+}
+
+.feature__button:hover,
+.feature__button:active {
+  border: #ec5538 solid 1px;
+  background-color: #fafafa;
+  color: #ec5538;
 }
 
 
