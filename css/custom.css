@@ -1,6 +1,15 @@
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 NAVBAR
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+h2 {
+  padding-top: 20px !important;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NAVBAR
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 html {
   scroll-behavior: smooth;
 }
@@ -226,4 +235,12 @@ TOOLS PAGE
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+}
+
+.tools__heading {
+  font-size: 24px;
+}
+
+.tools__subheading {
+  color: #787878;
 }
