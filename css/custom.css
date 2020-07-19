@@ -225,6 +225,25 @@ IT TECHNOLOGIES PAGE
   background-position: top;
 }
 
+.it-technologies__heading {
+  font-size: 24px;
+}
+
+.technologies__columns {
+  column-count: 2;
+  column-gap: 40px;
+}
+
+.technologies__image {
+  margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .technologies__columns {
+    column-count: 1;
+  }
+}
+
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
